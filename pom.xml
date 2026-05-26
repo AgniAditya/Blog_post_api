@@ -8,13 +8,13 @@
 		<version>2.7.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.lakshy.blog</groupId>
+	<groupId>com.aditya.blog</groupId>
 	<artifactId>blogging-app-apis</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>blogging-app-apis</name>
 	<description>Backend for Blog app using Spring Boot</description>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -57,6 +57,7 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
+			<version>1.18.30</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
